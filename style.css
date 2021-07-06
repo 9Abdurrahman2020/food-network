@@ -3,6 +3,28 @@ body{
     margin: 0px;
     padding: 0px;
 }
+ul{
+    list-style-type: none;
+    background-color: orange;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+#about-li{
+    float:right;
+}
+li{
+    display:inline-block;
+}
+li a{
+    text-decoration: none;
+    color:white;
+    padding: 15px 20px;
+    display: block;
+}
+li a:hover{
+    background-color:rgba(17, 75, 182, 0.767);
+}
 section{
     display: flex;
 }
@@ -46,7 +68,6 @@ section{
     margin:0 auto;
 }
 .recipie-div{
-    width: 30%;
     margin:20px 5% 80px;
     border: 15px solid white;
     border-radius: 25px;
